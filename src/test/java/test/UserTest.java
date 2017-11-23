@@ -37,4 +37,10 @@ public class UserTest {
 		List<User> users = userService.findAll();
 		Logger.info(JSON.toJSONString(users));
 	}
+	
+	@Test
+	public void test3(){
+		List<User> users = userService.findAll();
+		Logger.info(JSON.toJSONString(users));
+	}
 }
