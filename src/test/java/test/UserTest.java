@@ -39,7 +39,7 @@ public class UserTest {
 	}
 	
 	@Test
-	public void test3(){
+	public void test4(){
 		List<User> users = userService.findAll();
 		Logger.info(JSON.toJSONString(users));
 	}
